@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00D39C318337A010012BAAE /* sonic.png in Resources */ = {isa = PBXBuildFile; fileRef = D00D39C218337A010012BAAE /* sonic.png */; };
+		D00D39C518337AD70012BAAE /* sonic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00D39C418337AD70012BAAE /* sonic@2x.png */; };
+		D00D39CC183380D00012BAAE /* LHGoalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D39CA183380D00012BAAE /* LHGoalListViewController.m */; };
+		D00D39CD183380D00012BAAE /* LHGoalListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D39CB183380D00012BAAE /* LHGoalListViewController.xib */; };
+		D00D39D01833828C0012BAAE /* LHGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D39CF1833828C0012BAAE /* LHGoal.m */; };
 		D0E6C8A71828E33B0000C3D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6C8A61828E33B0000C3D2 /* Cocoa.framework */; };
 		D0E6C8B11828E33B0000C3D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E6C8AF1828E33B0000C3D2 /* InfoPlist.strings */; };
 		D0E6C8B31828E33B0000C3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6C8B21828E33B0000C3D2 /* main.m */; };
@@ -32,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00D39C218337A010012BAAE /* sonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonic.png; sourceTree = "<group>"; };
+		D00D39C418337AD70012BAAE /* sonic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sonic@2x.png"; sourceTree = "<group>"; };
+		D00D39C9183380D00012BAAE /* LHGoalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHGoalListViewController.h; sourceTree = "<group>"; };
+		D00D39CA183380D00012BAAE /* LHGoalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHGoalListViewController.m; sourceTree = "<group>"; };
+		D00D39CB183380D00012BAAE /* LHGoalListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHGoalListViewController.xib; sourceTree = "<group>"; };
+		D00D39CE1833828C0012BAAE /* LHGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHGoal.h; sourceTree = "<group>"; };
+		D00D39CF1833828C0012BAAE /* LHGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHGoal.m; sourceTree = "<group>"; };
 		D0E6C8A31828E33B0000C3D2 /* SayDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E6C8A61828E33B0000C3D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D0E6C8A91828E33B0000C3D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -117,12 +129,19 @@
 		D0E6C8AC1828E33B0000C3D2 /* SayDo */ = {
 			isa = PBXGroup;
 			children = (
+				D00D39C9183380D00012BAAE /* LHGoalListViewController.h */,
+				D00D39CA183380D00012BAAE /* LHGoalListViewController.m */,
+				D00D39CB183380D00012BAAE /* LHGoalListViewController.xib */,
+				D00D39C218337A010012BAAE /* sonic.png */,
+				D00D39C418337AD70012BAAE /* sonic@2x.png */,
 				D0E6C8B81828E33B0000C3D2 /* LHAppDelegate.h */,
 				D0E6C8B91828E33B0000C3D2 /* LHAppDelegate.m */,
 				D0E6C8BB1828E33B0000C3D2 /* MainMenu.xib */,
 				D0E6C8C11828E33B0000C3D2 /* Images.xcassets */,
 				D0E6C8BE1828E33B0000C3D2 /* SayDo.xcdatamodeld */,
 				D0E6C8AD1828E33B0000C3D2 /* Supporting Files */,
+				D00D39CE1833828C0012BAAE /* LHGoal.h */,
+				D00D39CF1833828C0012BAAE /* LHGoal.m */,
 			);
 			path = SayDo;
 			sourceTree = "<group>";
@@ -235,9 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E6C8B11828E33B0000C3D2 /* InfoPlist.strings in Resources */,
+				D00D39C518337AD70012BAAE /* sonic@2x.png in Resources */,
+				D00D39C318337A010012BAAE /* sonic.png in Resources */,
 				D0E6C8C21828E33B0000C3D2 /* Images.xcassets in Resources */,
 				D0E6C8B71828E33B0000C3D2 /* Credits.rtf in Resources */,
 				D0E6C8BD1828E33B0000C3D2 /* MainMenu.xib in Resources */,
+				D00D39CD183380D00012BAAE /* LHGoalListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +280,9 @@
 			files = (
 				D0E6C8BA1828E33B0000C3D2 /* LHAppDelegate.m in Sources */,
 				D0E6C8B31828E33B0000C3D2 /* main.m in Sources */,
+				D00D39D01833828C0012BAAE /* LHGoal.m in Sources */,
 				D0E6C8C01828E33B0000C3D2 /* SayDo.xcdatamodeld in Sources */,
+				D00D39CC183380D00012BAAE /* LHGoalListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +493,7 @@
 				D0E6C8D91828E33B0000C3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0E6C8DA1828E33B0000C3D2 /* Build configuration list for PBXNativeTarget "SayDoTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +502,7 @@
 				D0E6C8DC1828E33B0000C3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

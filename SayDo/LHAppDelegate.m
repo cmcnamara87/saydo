@@ -7,6 +7,11 @@
 //
 
 #import "LHAppDelegate.h"
+#import "LHGoalListViewController.h"
+
+@interface LHAppDelegate ()
+@property (nonatomic, strong) IBOutlet LHGoalListViewController *goalListViewController;
+@end
 
 @implementation LHAppDelegate
 
@@ -17,6 +22,16 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
   // Insert code here to initialize your application
+  NSStatusBar *statusBar = [NSStatusBar systemStatusBar];
+  self.statusItem = [statusBar statusItemWithLength:NSVariableStatusItemLength];
+  [self.statusItem setImage:[NSImage imageNamed:@"sonic"]];
+  [self.statusItem setHighlightMode:YES];
+  [self.statusItem setToolTip:@"Say It? Do it!"];
+  
+  self.goalListViewController = [[LHGoalListViewController alloc] initWithNibName:@"LHGoalListViewController" bundle:nil];
+  [self.window.contentView addSubview:self.goalListViewController.view];
+  self.goalListViewController.view.frame = ((NSView *) self.window.contentView).bounds;
+  self.goalListViewController.view.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "net.lovelyhead.SayDo" in the user's Application Support directory.
