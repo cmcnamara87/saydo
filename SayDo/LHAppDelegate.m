@@ -21,6 +21,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    [Parse setApplicationId:@"fFGMcklbrvyEAZCINjC3UjqpMWx163KKpFEd5Nzz"
+                  clientKey:@"OCofGsnl20JB5JqddZIKLa4mNnOa1DHquiQXy79L"];
+    
   // Insert code here to initialize your application
   NSStatusBar *statusBar = [NSStatusBar systemStatusBar];
   self.statusItem = [statusBar statusItemWithLength:NSVariableStatusItemLength];
@@ -32,6 +35,7 @@
   [self.window.contentView addSubview:self.goalListViewController.view];
   self.goalListViewController.view.frame = ((NSView *) self.window.contentView).bounds;
   self.goalListViewController.view.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
+
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "net.lovelyhead.SayDo" in the user's Application Support directory.

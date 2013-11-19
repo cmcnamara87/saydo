@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0C2EFA183B6DA500B2352A /* ParseOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2EF9183B6DA500B2352A /* ParseOSX.framework */; };
+		4E0C2EFC183B6DF600B2352A /* ParseOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E0C2EF9183B6DA500B2352A /* ParseOSX.framework */; };
+		4E0C2EFE183B6E1400B2352A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2EFD183B6E1400B2352A /* CFNetwork.framework */; };
+		4E0C2F00183B6E1B00B2352A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2EFF183B6E1B00B2352A /* CoreGraphics.framework */; };
+		4E0C2F02183B6E2000B2352A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2F01183B6E2000B2352A /* CoreLocation.framework */; };
+		4E0C2F04183B6E2B00B2352A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2F03183B6E2B00B2352A /* libsqlite3.dylib */; };
+		4E0C2F06183B6E3200B2352A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2F05183B6E3200B2352A /* libz.1.1.3.dylib */; };
+		4E0C2F08183B6E3900B2352A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2F07183B6E3900B2352A /* QuartzCore.framework */; };
+		4E0C2F0A183B6E4000B2352A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2F09183B6E4000B2352A /* Security.framework */; };
+		4E0C2F0C183B6E4900B2352A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0C2F0B183B6E4900B2352A /* SystemConfiguration.framework */; };
+		4E49580E183B8AE20032B1A9 /* ParseOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E49580D183B8AE20032B1A9 /* ParseOSX.framework */; };
 		D00D39C318337A010012BAAE /* sonic.png in Resources */ = {isa = PBXBuildFile; fileRef = D00D39C218337A010012BAAE /* sonic.png */; };
 		D00D39C518337AD70012BAAE /* sonic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00D39C418337AD70012BAAE /* sonic@2x.png */; };
 		D00D39CC183380D00012BAAE /* LHGoalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D39CA183380D00012BAAE /* LHGoalListViewController.m */; };
@@ -36,7 +47,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4E0C2EFB183B6DD500B2352A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E0C2EFC183B6DF600B2352A /* ParseOSX.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4E0C2EF9183B6DA500B2352A /* ParseOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseOSX.framework; sourceTree = "<group>"; };
+		4E0C2EFD183B6E1400B2352A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4E0C2EFF183B6E1B00B2352A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E0C2F01183B6E2000B2352A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E0C2F03183B6E2B00B2352A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4E0C2F05183B6E3200B2352A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		4E0C2F07183B6E3900B2352A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E0C2F09183B6E4000B2352A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E0C2F0B183B6E4900B2352A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4E49580D183B8AE20032B1A9 /* ParseOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseOSX.framework; sourceTree = "<group>"; };
 		D00D39C218337A010012BAAE /* sonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonic.png; sourceTree = "<group>"; };
 		D00D39C418337AD70012BAAE /* sonic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sonic@2x.png"; sourceTree = "<group>"; };
 		D00D39C9183380D00012BAAE /* LHGoalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHGoalListViewController.h; sourceTree = "<group>"; };
@@ -71,7 +105,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0C2F0C183B6E4900B2352A /* SystemConfiguration.framework in Frameworks */,
+				4E0C2F0A183B6E4000B2352A /* Security.framework in Frameworks */,
+				4E0C2F08183B6E3900B2352A /* QuartzCore.framework in Frameworks */,
+				4E0C2F06183B6E3200B2352A /* libz.1.1.3.dylib in Frameworks */,
+				4E0C2F04183B6E2B00B2352A /* libsqlite3.dylib in Frameworks */,
+				4E0C2F02183B6E2000B2352A /* CoreLocation.framework in Frameworks */,
+				4E0C2F00183B6E1B00B2352A /* CoreGraphics.framework in Frameworks */,
+				4E0C2EFE183B6E1400B2352A /* CFNetwork.framework in Frameworks */,
+				4E49580E183B8AE20032B1A9 /* ParseOSX.framework in Frameworks */,
 				D0E6C8A71828E33B0000C3D2 /* Cocoa.framework in Frameworks */,
+				4E0C2EFA183B6DA500B2352A /* ParseOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +153,16 @@
 		D0E6C8A51828E33B0000C3D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E49580D183B8AE20032B1A9 /* ParseOSX.framework */,
+				4E0C2F0B183B6E4900B2352A /* SystemConfiguration.framework */,
+				4E0C2F09183B6E4000B2352A /* Security.framework */,
+				4E0C2F07183B6E3900B2352A /* QuartzCore.framework */,
+				4E0C2F05183B6E3200B2352A /* libz.1.1.3.dylib */,
+				4E0C2F03183B6E2B00B2352A /* libsqlite3.dylib */,
+				4E0C2F01183B6E2000B2352A /* CoreLocation.framework */,
+				4E0C2EFF183B6E1B00B2352A /* CoreGraphics.framework */,
+				4E0C2EFD183B6E1400B2352A /* CFNetwork.framework */,
+				4E0C2EF9183B6DA500B2352A /* ParseOSX.framework */,
 				D0E6C8A61828E33B0000C3D2 /* Cocoa.framework */,
 				D0E6C8C81828E33B0000C3D2 /* XCTest.framework */,
 				D0E6C8A81828E33B0000C3D2 /* Other Frameworks */,
@@ -186,6 +240,7 @@
 				D0E6C89F1828E33B0000C3D2 /* Sources */,
 				D0E6C8A01828E33B0000C3D2 /* Frameworks */,
 				D0E6C8A11828E33B0000C3D2 /* Resources */,
+				4E0C2EFB183B6DD500B2352A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -413,6 +468,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cmcnamara87/Desktop/saydo,
+					/Users/cmcnamara87/Desktop/saydocraig,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SayDo/SayDo-Prefix.pch";
 				INFOPLIST_FILE = "SayDo/SayDo-Info.plist";
@@ -426,6 +486,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cmcnamara87/Desktop/saydo,
+					/Users/cmcnamara87/Desktop/saydocraig,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SayDo/SayDo-Prefix.pch";
 				INFOPLIST_FILE = "SayDo/SayDo-Info.plist";
